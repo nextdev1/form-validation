@@ -55,7 +55,7 @@ export default function SignUp() {
           <h2>Password</h2>
           <input
             {...register("password")}
-            type="text"
+            type="password"
             placeholder="Password"
             className={cn(
               "bg-white px-2 p-1 w-full border-[1px] rounded-md outline-none",
